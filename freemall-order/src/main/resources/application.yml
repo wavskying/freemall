@@ -1,0 +1,17 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    #    type: com.alibaba.druid.pool.DruidDataSource
+    #MySQL??
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.100.117.207:3339/freemall_order?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 343669209@Hbw123456
+
+mybatis-plus:
+  mapperLocations: classpath:mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto

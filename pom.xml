@@ -15,6 +15,11 @@
         <module>freemall-ware</module>
         <module>freemall-coupon</module>
         <module>freemall-member</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>freemall-common</module>
+        <module>freemall-getway</module>
+        <module>freemall-third-service</module>
     </modules>
 
 </project>
